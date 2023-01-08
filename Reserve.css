@@ -7,7 +7,7 @@ body {
     outline: none;
     font-family: Roboto, Arial, sans-serif;
     font-size: 14px;
-    color: #666;
+    color: rgb(19, 96, 197);
     line-height: 22px;
     }
     h1 {
@@ -23,7 +23,7 @@ body {
     font-family: Roboto, Arial, sans-serif;
     font-size: 18px;
     color: #fff;
-    background-color: #006622;
+    background-color: #044d91;
     }
     textarea {
     width: calc(100% - 12px);
@@ -41,12 +41,12 @@ body {
     padding: 20px;
     border-radius: 6px;
     background: #fff;
-    box-shadow: 0 0 8px #006622; 
+    box-shadow: 0 0 8px #044d91; 
     }
     .banner {
     position: relative;
     height: 250px;
-    background-image: url("/uploads/media/default/0001/02/b23a2c8c49b8e43249487140e4c2e22a63bd7cb8.jpeg");  
+    background-image: url("hot.jpg");  
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -77,12 +77,12 @@ body {
     padding: 5px;
     }
     .item:hover p, .item:hover i, .question:hover p, .question label:hover, input:hover::placeholder {
-    color:  #006622;
+    color:  #044d91;
     }
     .item input:hover, .item select:hover, .item textarea:hover {
     border: 1px solid transparent;
-    box-shadow: 0 0 3px 0  #006622;
-    color: #006622;
+    box-shadow: 0 0 3px 0  #044d91;
+    color: #044d91;
     }
     .item {
     position: relative;
@@ -97,7 +97,7 @@ body {
     .item i, input[type="date"]::-webkit-calendar-picker-indicator {
     position: absolute;
     font-size: 20px;
-    color: #00b33c;
+    color: #044d91;
     }
     .item i {
     right: 1%;
@@ -148,7 +148,7 @@ body {
     border: 2px solid #ccc;
     }
     input[type=radio]:checked + label:before, label.radio:hover:before {
-    border: 2px solid  #006622;
+    border: 2px solid  #044d91;
     }
     label.radio:after {
     content: "";
@@ -157,7 +157,7 @@ body {
     left: 5px;
     width: 8px;
     height: 4px;
-    border: 3px solid  #006622;
+    border: 3px solid  #044d91;
     border-top: none;
     border-right: none;
     transform: rotate(-45deg);
@@ -179,13 +179,13 @@ body {
     padding: 10px;
     border: none;
     border-radius: 5px; 
-    background:  #006622;
+    background: #044d91;
     font-size: 16px;
     color: #fff;
     cursor: pointer;
     }
     button:hover {
-    background:  #00b33c;
+    background:  #044d91;
     }
     @media (min-width: 568px) {
     .name-item, .city-item {
